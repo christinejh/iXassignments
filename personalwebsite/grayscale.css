@@ -239,13 +239,15 @@ a:focus {
 }
 
 #about {
+    display: table;
     width: 100%;
-    background: url(../img/dandelion.jpg) no-repeat center center scroll;
+    height: 100%;
     background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 .col-lg-8 {
@@ -297,10 +299,10 @@ a:focus {
     padding-top: 20px;
 }
 
-.download-section {
+.cause-section {
     width: 100%;
-    padding: 50px 0;
-    color: #fff;
+    padding: 250px 0;
+    color: white;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -320,7 +322,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .contact-section {
         padding: 100px 0;
     }
 
